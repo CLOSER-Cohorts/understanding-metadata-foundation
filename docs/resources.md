@@ -57,7 +57,7 @@
     - **UK Data Service** [FAIR pdf checklist here](https://ukdataservice.ac.uk/app/uploads/exercise_fairdata.pdf) to review your data.
     - **OpenAire**'s [pdf checklist](https://zenodo.org/records/1065991)
     
-## Metadata introduction
+## Metadata Introduction
 - You can watch [this knowledge clip from UGent University](https://www.youtube.com/watch?v=DW2T_cnqKPU) to gain an overview of metadata in a research context<sup>[21]</sup>
 - You can explore CESSDA's explanation of metadata for [qualitative and quantitative metadata here](https://dmeg.cessda.eu/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata)<sup>[22]</sup>
 
