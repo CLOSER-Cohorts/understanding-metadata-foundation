@@ -3,8 +3,8 @@ site_name: Understanding Metadata
 theme:
   name: material
   features:
-    - navigation.expand
-#    - navigation.prune  # use this to collapse twhen more than one module is live
+#    - navigation.expand
+    - navigation.prune  # use this to collapse twhen more than one module is live
     - content.tooltips
   logo: assets/closer.png
   font:
@@ -12,41 +12,41 @@ theme:
 nav:
   - Introductory course: 
     - Getting started: "introduction/1.0 Module Introduction.md"
-    - 1.1 Research Data: "introduction/1.1 Research data.md"
-    - 1.2 Research Data Management: "introduction/1.2 Research data management.md"
-    - 1.3 FAIR: "introduction/1.3 FAIR.md"
-    - 2.1 Introduction to Metadata: "introduction/2.1 Introduction to metadata.md"
-    - 2.2 Metadata in the Research Data Lifecycle: "introduction/2.2 Metadata in the research lifecycle.md"
-    - 2.3 Using Metadata: "introduction/2.3 Using metadata - discover data.md"
-    - 2.4 Controlled Vocabularies: "introduction/2.4 Controlled vocabularies.md"
-    - 2.5 Metadata Standards: "introduction/2.5 Metadata standards.md"
-    - 2.6 Creating Metadata: "introduction/2.6 Creating metadata, study level.md"
-    - 3.0 Summary: "introduction/2.7 Introduction summary.md"  
- # - Foundation course: 
- #   - Overview: "foundation/0 F_overview_planning.md"
- #   - Getting started: "foundation/0. Getting started.md"
- #   - Introduction: "foundation/1.0  Introduction.md"
- #   - Unit 1.1 Who should Create Metadata?: "foundation/1.1 Who should create metadata.md"
- #   - Unit 1.2 Why Metadata Matters: "foundation/1.2 Why metadata matters.md"
- #   - Unit 2.0 Core Metadata: "foundation/2.0 Core metadata elements.md"
- #   - Unit 2.1 Unit Type, Population and Universe: "foundation/2.1 Unit type, Population and Universe.md"
- #   - Unit 2.2 Data Collection Metadata: "foundation/2.2 Data collection metadata.md"
- #   - Unit 2.3 Question and Measurement Metadata: "foundation/2.3 Question and measurement metadata.md"
- #   - Unit 2.4 Codes and Category Metadata: "foundation/2.4 Codes and category metadata.md"
- #   - Unit 2.5 Variable Metadata: "foundation/2.5 Variable metadata.md"
- #   - Unit 2.6 Concept Metadata: "foundation/2.6 Concept metadata.md"
- #   - Unit 2.7 Study Metadata: "foundation/2.7 Study metadata.md"  
- #   - Unit 2.8 Dataset Metadata: "foundation/2.8 Dataset metadata.md"  
- #   - Unit 3.0 Metadata Relationships: "foundation/3. Metadata relationships.md"  
- #   - Unit 4.0 What Metadata to Create: "foundation/4.0 What metadata to create.md"  
- #   - Unit 4.1 Considerations for What Metadata to Create: "foundation/4.1 Considerations for what metadata to create.md"  
- #   - Unit 4.2 How to Create Metadata: "foundation/4.2 How to create metadata.md"  
- #   - Unit 4.3 Activity - Create Study Metadata : "foundation/4.3 Create study metadata activity.md"  
- #   - Unit 4.4 Activity - Create Dataset Metadata : "foundation/4.4 Create dataset metadata activity.md"  
- #   - Unit 4.5 Activity - Create Variable Metadata : "foundation/4.5 Create variable metadata activity.md"  
- #   - Unit 4.6 Activity - Create Dataset, Variable & Question Metadata : "foundation/4.6 Create dataset, variable and question metadata activity.md"  
- #   - Unit 4.4 Activity - Create Dataset Metadata : "foundation/4.4 Create dataset metadata activity.md"  
- #   - Unit 4.4 Activity - Create Dataset Metadata : "foundation/4.4 Create dataset metadata activity.md"  
+    - Unit 1.1 Research Data: "introduction/1.1 Research data.md"
+    - Unit 1.2 Research Data Management: "introduction/1.2 Research data management.md"
+    - Unit 1.3 FAIR: "introduction/1.3 FAIR.md"
+    - Unit 2.1 Introduction to Metadata: "introduction/2.1 Introduction to metadata.md"
+    - Unit 2.2 Metadata in the Research Data Lifecycle: "introduction/2.2 Metadata in the research lifecycle.md"
+    - Unit 2.3 Using Metadata: "introduction/2.3 Using metadata - discover data.md"
+    - Unit 2.4 Controlled Vocabularies: "introduction/2.4 Controlled vocabularies.md"
+    - Unit 2.5 Metadata Standards: "introduction/2.5 Metadata standards.md"
+    - Unit 2.6 Creating Metadata: "introduction/2.6 Creating metadata, study level.md"
+    - Unit 2.7 Summary: "introduction/2.7 Introduction summary.md"  
+  - Foundation course: 
+    - Overview: "foundation/0 F_overview_planning.md"
+    - Getting started: "foundation/0. Getting started.md"
+    - Introduction: "foundation/1.0  Introduction.md"
+    - Unit 1.1 Who should Create Metadata?: "foundation/1.1 Who should create metadata.md"
+    - Unit 1.2 Why Metadata Matters: "foundation/1.2 Why metadata matters.md"
+    - Unit 2.0 Core Metadata: "foundation/2.0 Core metadata elements.md"
+    - Unit 2.1 Unit Type, Population and Universe: "foundation/2.1 Unit type, Population and Universe.md"
+    - Unit 2.2 Data Collection Metadata: "foundation/2.2 Data collection metadata.md"
+    - Unit 2.3 Question and Measurement Metadata: "foundation/2.3 Question and measurement metadata.md"
+    - Unit 2.4 Codes and Category Metadata: "foundation/2.4 Codes and category metadata.md"
+    - Unit 2.5 Variable Metadata: "foundation/2.5 Variable metadata.md"
+    - Unit 2.6 Concept Metadata: "foundation/2.6 Concept metadata.md"
+    - Unit 2.7 Study Metadata: "foundation/2.7 Study metadata.md"  
+    - Unit 2.8 Dataset Metadata: "foundation/2.8 Dataset metadata.md"  
+    - Unit 3.0 Metadata Relationships: "foundation/3. Metadata relationships.md"  
+    - Unit 4.0 What Metadata to Create: "foundation/4.0 What metadata to create.md"  
+    - Unit 4.1 Considerations for What Metadata to Create: "foundation/4.1 Considerations for what metadata to create.md"  
+    - Unit 4.2 How to Create Metadata: "foundation/4.2 How to create metadata.md"  
+    - Unit 4.3 Activity - Create Study Metadata : "foundation/4.3 Create study metadata activity.md"  
+    - Unit 4.4 Activity - Create Dataset Metadata : "foundation/4.4 Create dataset metadata activity.md"  
+    - Unit 4.5 Activity - Create Variable Metadata : "foundation/4.5 Create variable metadata activity.md"  
+    - Unit 4.6 Activity - Create Dataset, Variable & Question Metadata : "foundation/4.6 Create dataset, variable and question metadata activity.md"  
+    - Unit 4.4 Activity - Create Dataset Metadata : "foundation/4.4 Create dataset metadata activity.md"  
+    - Unit 4.4 Activity - Create Dataset Metadata : "foundation/4.4 Create dataset metadata activity.md"  
   - Resources: "resources.md"
 markdown_extensions:
   - abbr
