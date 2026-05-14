@@ -9,6 +9,8 @@ theme:
   logo: assets/closer.png
   font:
     text: Source Sans Pro  
+  palette:
+    primary: green    
 nav:
   - Introductory course: 
     - Getting started: "introduction/1.0 Module Introduction.md"
