@@ -25,11 +25,10 @@ authors:
 
 !!! question ""
 
-    You are looking for data to support a research project on physical activity in young adults in Wales before and after the Covid-19 pandemic.
+    You are looking for data to support a research project on physical activity 
+    in young adults in Wales before and after the Covid-19 pandemic.
 
     Below is a metadata record for a fictional dataset.
-
----
 
     **Dataset metadata**
 
@@ -41,8 +40,6 @@ authors:
     - **File format:** CSV  
     - **Documentation:** Codebook  
     - **License:** Not specified  
-
----
 
 ### Task 1: What metadata is useful and what metadata is missing or unclear?
 
@@ -178,7 +175,5 @@ and decide whether it is suitable for your research?
 
 ### Summary
 
-Good quality metadata allows researchers to quickly assess whether a dataset is relevant, reliable, and usable.
-
-Incomplete or unclear metadata can make valuable data difficult to find, interpret, or reuse. Metadata is not just descriptive, it supports decision-making throughout 
+Good quality metadata allows researchers to quickly assess whether a dataset is relevant, reliable, and usable. Incomplete or unclear metadata can make valuable data difficult to find, interpret, or reuse. Metadata is not just descriptive, it supports decision-making throughout 
 the research process.
