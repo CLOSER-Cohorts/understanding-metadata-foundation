@@ -1,0 +1,1032 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../introduction/2.7%20Introduction%20summary/">
+      
+      
+        <link rel="next" href="../1.1%20Who%20should%20create%20metadata/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Unit 0 Getting started - Understanding Metadata</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Source Sans Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-XM55ZQ1426"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-XM55ZQ1426",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-XM55ZQ1426",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#getting-started" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Understanding Metadata" class="md-header__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Understanding Metadata
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Unit 0 Getting started
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Understanding Metadata" class="md-nav__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    Understanding Metadata
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../introduction/1.0%20Module%20Introduction/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Introductory course
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Foundation course
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Foundation course
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-will-i-learn-from-this-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      What will I learn from this course?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whos-this-course-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      Who's this course for?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-level-of-information-do-i-need-to-know-before-starting-the-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      What level of information do I need to know before starting the course?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-take-the-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      How do I take the course?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-metadata-in-the-foundation-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating metadata in the Foundation course
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-long-will-the-course-take" class="md-nav__link">
+    <span class="md-ellipsis">
+      How long will the course take?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminology" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminology
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#starting-the-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      Starting the course
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1%20Who%20should%20create%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.1 Who should Create Metadata?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.2%20Why%20metadata%20matters/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.2 Why Metadata Matters
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1%20Unit%20type%2C%20Population%20and%20Universe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.1 Unit Type, Population and Universe
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.2%20Data%20collection%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.2 Data Collection Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.3%20Question%20and%20measurement%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.3 Question and Measurement Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.4%20Codes%20and%20category%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.4 Codes and Category Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.5%20Variable%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.5 Variable Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.6%20Concept%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.6 Concept Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.7%20Study%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.7 Study Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.8%20Dataset%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.8 Dataset Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.%20Metadata%20relationships/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3.0 Metadata Relationships
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4.1%20Considerations%20for%20what%20metadata%20to%20create/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4.1 Considerations for what Metadata to Create
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4.2%20How%20to%20create%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4.2 How to Create Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4.3%20Create%20study%20metadata%20activity/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5.1 Activity - Create Study Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4.6%20Create%20dataset%2C%20variable%20and%20question%20metadata%20activity/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5.2 Activity - Create Dataset, Variable & Question Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-will-i-learn-from-this-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      What will I learn from this course?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whos-this-course-for" class="md-nav__link">
+    <span class="md-ellipsis">
+      Who's this course for?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-level-of-information-do-i-need-to-know-before-starting-the-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      What level of information do I need to know before starting the course?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-do-i-take-the-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      How do I take the course?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#creating-metadata-in-the-foundation-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating metadata in the Foundation course
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-long-will-the-course-take" class="md-nav__link">
+    <span class="md-ellipsis">
+      How long will the course take?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#terminology" class="md-nav__link">
+    <span class="md-ellipsis">
+      Terminology
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#starting-the-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      Starting the course
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="getting-started">Getting started</h1>
+<p>Welcome to the Foundation Metadata training course.</p>
+<h2 id="what-will-i-learn-from-this-course">What will I learn from this course?</h2>
+<p>This Foundation course builds on the core principles introduced in the Introduction to Metadata training which covered what metadata is, how it is used, and the benefits it provides to you, your collaborators, and the wider research community. In this course, we introduce additional foundational metadata principles that are key for managing both metadata and data effectively. You will then learn how to make informed decisions about what metadata to create and how to create it, before moving on to practical guidance on producing metadata for your own research.</p>
+<blockquote>
+<p>[NOTE]
+HM - Add  LO once finalised.</p>
+</blockquote>
+<h2 id="whos-this-course-for">Who's this course for?</h2>
+<p>This course is for anyone who will be engaging with research data as part of their work, for example using, analysing or collecting research data.</p>
+<p>This course may be particularly relevant for ...</p>
+<ul>
+<li>Masters and PhD students</li>
+<li>Researchers</li>
+<li>Data stewards and data managers</li>
+<li>People working for funding bodies of academic research</li>
+<li>People working in policy areas that use data and academic research in their work</li>
+</ul>
+<p>No advanced technical experience is required.</p>
+<h2 id="what-level-of-information-do-i-need-to-know-before-starting-the-course">What level of information do I need to know before starting the course?</h2>
+<p>You do not need specialist knowledge to begin this course. However, you should understand the basics of metadata, its role, and the essentials of research data and FAIR principles which are all covered in the Introduction to Metadata training. The course then builds from those concepts toward more practical skills in deciding what metadata to create and how to create it effectively.</p>
+<p>The following topics were covered in the <a href="https://closer-cohorts.github.io/understanding-metadata/">'Introduction to Metadata'</a> training course. If you are unfamiliar with any of the topic areas or would like a refresher then please go to the relevant units as linked below. </p>
+<p><strong>Research data</strong></p>
+<ul>
+<li>Understanding the characteristics and purpose of research data <a href="https://closer-cohorts.github.io/understanding-metadata/introduction/1.1%20Research%20data/">unit 1.1</a> </li>
+<li>Conceiving the research lifecycle as concept --&gt; measure --&gt; representation <a href="https://closer-cohorts.github.io/understanding-metadata/introduction/1.1%20Research%20data/">unit 1.1</a> </li>
+<li>Research data management <a href="https://closer-cohorts.github.io/understanding-metadata/introduction/1.2%20Research%20data%20management/">unit 1.2</a> </li>
+<li>FAIR data principles <a href="https://closer-cohorts.github.io/understanding-metadata/introduction/1.3%20FAIR/">unit 1.3</a></li>
+</ul>
+<p><strong>Metadata</strong></p>
+<ul>
+<li>Definition of metadata and the role of metadata in research <a href="https://closer-cohorts.github.io/understanding-metadata/introduction/2.1%20Introduction%20to%20metadata/">unit 2.1</a></li>
+<li>How metadata relates to data management and FAIR principles <a href="https://closer-cohorts.github.io/understanding-metadata/introduction/2.1%20Introduction%20to%20metadata/">unit 2.1</a></li>
+<li>Metadata in the data lifecycle <a href="https://closer-cohorts.github.io/understanding-metadata/introduction/2.2%20Metadata%20in%20the%20research%20lifecycle/">unit 2.2</a></li>
+<li>The role of metadata in data repositories and catalogues <a href="https://closer-cohorts.github.io/understanding-metadata/introduction/2.3%20Using%20metadata%20-%20discover%20data/">unit 2.3</a></li>
+</ul>
+<p><strong>Metadata components</strong></p>
+<ul>
+<li>Controlled vocabularies <a href="https://closer-cohorts.github.io/understanding-metadata/introduction/2.4%20Controlled%20vocabularies/">unit 2.4</a></li>
+<li>Metadata schemas and standards <a href="https://closer-cohorts.github.io/understanding-metadata/introduction/2.5%20Metadata%20standards/">unit 2.5</a></li>
+</ul>
+<p><strong>Using metadata activity</strong></p>
+<ul>
+<li>Evaluating a dataset using metadata unit 3.0 (add link)</li>
+</ul>
+<h2 id="how-do-i-take-the-course">How do I take the course?</h2>
+<p>The Introduction course is split into 10 units. These are...</p>
+<ul>
+<li>1 Introduction</li>
+<li>1.1 Who should create metadata?</li>
+<li>1.2 Why create metadata?</li>
+<li>2 Core metadata elements</li>
+<li>2.1 Unit type, Population and Universe</li>
+<li>2.2 Question metadata<ul>
+<li>2.21 Codes and Categories</li>
+</ul>
+</li>
+<li>2.3 Variable metadata</li>
+<li>2.4 Concept metadata</li>
+<li>3 Metadata relationships</li>
+<li>4 What metadata should you create?</li>
+<li>4.1 What study metadata</li>
+<li>4.2 What dataset metadata</li>
+<li>4.3 What variable metadata </li>
+<li>5 Creating your own metadata activity</li>
+</ul>
+<blockquote>
+<p>[!NOTE]
+BO: Will need to check and update the unit names once finalised (e.g. 1.2).</p>
+</blockquote>
+<h2 id="creating-metadata-in-the-foundation-course">Creating metadata in the Foundation course</h2>
+<p>In the Foundation course, we will explore creating metadata for a small research project that has produced tabular data (data found in tables). We will use an excel template to practice creating metadata. </p>
+<p>We will look at creating metadata predominantly for quantitative, tabular data, and use examples focused on metadata for data collection instruments such as questionnaires and surveys.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">For tabular data</label><label for="__tabbed_1_2">Based on a small research project</label><label for="__tabbed_1_3">Using excel</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>While metadata can be created for any research project and data type, we will be focusing on <strong>metadata for tabular data</strong>. If you have tabular dataset you would like to create metadata for, have it open while completing this course. If you do not regularly work with tabular data, the metadata elements and concepts this course covers are still relevant across disciplines and data types.</p>
+</div>
+<div class="tabbed-block">
+<p>In the Foundation course, we will mainly focus on creating metadata for small scale research projects, with the purpose of personal use or sharing with project collaborators. </p>
+<p>The metadata elements we explore will also be relevant to those working on large scale projects whose (meta)data will be widely shared, however, for these projects, you will have to take into account further contextual considerations such as discipline specific metadata standards, controlled vocabularies and data repository/catalogue requirements.</p>
+</div>
+<div class="tabbed-block">
+<p>To practice metadata creation in the Foundation unit, we will use an excel metadata template. However, depending on your research project and the tools you chose to use, you may create and manage metadata using different software.</p>
+<p>While Excel is not an machine readable format itself, it can be exported or transformed into machine readable formats, if the file follows a clear strucutre, data is clean and it doesn't rely on extra formatting such as colour, merged cells or notes.</p>
+</div>
+</div>
+</div>
+<p>You can download the metadata template for the Foundation course here (add link)</p>
+<h2 id="how-long-will-the-course-take">How long will the course take?</h2>
+<p>The training course is estimated to take about 6 hours 30 minutes to complete. This is estimated based on: </p>
+<ul>
+<li>An average reading speed of 300 words per minute</li>
+<li>Additional learning time for comprehension of technical concepts (between 20-70% added time)</li>
+<li>Time for exercises, examples, and quizzes</li>
+</ul>
+<p>These are estimated times. Your own time may vary depending on experience, background knowledge, and whether you complete all activities.</p>
+<h2 id="terminology">Terminology</h2>
+<p>As the way we understand and use metadata is evolving, it's important to note that some terms may be used differently by people or disciplines. The way some concepts are defined in this course may be different to how you currently understand them. So you have a clear understanding of the course content, we'll define key terms and concepts as we go along.</p>
+<p>To maintain a level of consistency in our definitions, where possible we will refer to the Research Data Management (RDM) Terminology Bank developed by CODATA[1]. We may also provide further definitions from other sources to give a more rounded description of a concept.</p>
+<p>The RDM Terminology Bank is a community reviewed, cross-discipline vocabulary that defines key concepts in RDM. As it is regularly updated, it reflects the latest understanding of RDM and aims to offer a single source of truth for terms that can be used in different ways. You can access the RDM Terminology Bank here and we recommend having this open while you go through the course so you can look up any terms that may be new to you, or you want to clarify[2].</p>
+<h2 id="starting-the-course">Starting the course</h2>
+<p>If you're starting the course from the beginning, head to <a href="1.1 Research data.md">unit 1.1</a> where we'll recap what metadata is and why different types of research projects require different approaches. You may want to download all the files used in the course before you get started (add link). If you need more of A refersher, head to the <a href="https://closer-cohorts.github.io/understanding-metadata/introduction/1.0%20Module%20Introduction/">Introduction to Metadata training course</a> first. </p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.prune", "content.tooltips"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>

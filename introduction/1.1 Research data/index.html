@@ -1,0 +1,1058 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../1.0%20Module%20Introduction/">
+      
+      
+        <link rel="next" href="../1.2%20Research%20data%20management/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Unit 1.1 What is research data? - Understanding Metadata</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Source Sans Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-XM55ZQ1426"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-XM55ZQ1426",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-XM55ZQ1426",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#unit-11-what-is-research-data" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Understanding Metadata" class="md-header__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Understanding Metadata
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Unit 1.1 What is research data?
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Understanding Metadata" class="md-nav__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    Understanding Metadata
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Introductory course
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Introductory course
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.0%20Module%20Introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    1.1 Research Data
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    1.1 Research Data
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is data?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#representation-of-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Representation of data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definition-of-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definition of data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Research data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#collecting-research-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Collecting research data
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-your-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test your knowledge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.2%20Research%20data%20management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.2 Research Data Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.3%20FAIR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.3 FAIR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1%20Introduction%20to%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.1 Introduction to Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.2%20Metadata%20in%20the%20research%20lifecycle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.2 Metadata in the Research Data Lifecycle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.3%20Using%20metadata%20-%20discover%20data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.3 Using Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.4%20Controlled%20vocabularies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.4 Controlled Vocabularies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.5%20Metadata%20standards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.5 Metadata Standards
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../activity/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3.0 Metadata activity
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.7%20Introduction%20summary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4.0 Summary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../foundation/0.%20Getting%20started/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Foundation course
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is data?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#representation-of-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Representation of data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#definition-of-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definition of data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Research data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#collecting-research-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Collecting research data
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-your-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test your knowledge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="unit-11-what-is-research-data">Unit 1.1 What is research data?</h1>
+<h2 id="unit-overview">Unit overview</h2>
+<div class="admonition example">
+<p><strong>Unit study time</strong></p>
+<ul>
+<li>15 minutes</li>
+</ul>
+<p><strong>Intended Learning Outcome</strong></p>
+<p>By the end of the unit, you will be able to ...</p>
+<ul>
+<li>Describe what research data is and how it can be represented</li>
+<li>Identify the characteristics of research data</li>
+<li>Explain the relationship between concept, measure, and data</li>
+</ul>
+</div>
+<h2 id="what-is-data">What is data?</h2>
+<p>In the Introduction course, we'll cover how we can manage and document research data using metadata. Before we do this, it's important we have a strong understanding of what data is, the characteristics of data, and the role of data in research. </p>
+<p>We use the term "data" all the time, but what do we actually mean? </p>
+<p>We constantly engage with data in our everyday lives. For example, consider a weather app we can find on our phones.</p>
+<div class="admonition question">
+<p class="admonition-title">What data is available in the weather app screenshot below<sup>[1]</sup>?</p>
+<p><p align="center">
+<img src="../img/met_office_image.png" alt="Alt Text" width="215" height="500">
+</p></p>
+<p><details>
+<summary><b>Data on the weather app</b></summary>
+<p></p></p>
+<p><p align="center">
+<img src="../img/met_office_image_circle.png" alt="Alt Text" width="215" height="500"> 
+</p></p>
+<p><p></p>
+The app gives us data on weather conditions for a specified time and location, such as...
+<ul>
+<li>Temperature</li>
+<li>Precipitation</li>
+<li>Cloud cover</li>
+</ul></p>
+<p>In this screenshot, the data is describing weather conditions in London.</p>
+</details>
+</div>
+<h2 id="representation-of-data">Representation of data</h2>
+<p>In the weather app, we gain information about the <em>measurement</em> of weather conditions in London by interpreting the data. We interpret different types of data to do this.</p>
+<p>For example, we interpret data that is ...</p>
+<ul>
+<li>Numbers e.g. 9</li>
+<li>Text e.g. 'Light showers'</li>
+<li>Symbols e.g. 🌧️</li>
+<li>Date/Time e.g. 19:00</li>
+</ul>
+<p>We can also interpret the same information about the same concept using different <em>representations of data</em>. For example, we can gain information about cloud coverage through the following representations of data...</p>
+<ul>
+<li>Text e.g. 'Partially cloudy'</li>
+<li>Symbols e.g. 🌥️</li>
+<li>Number e.g. 4 Oktas (Okta is a scale of measurement used to describe the amount of cloud cover on a scale between 0-8)</li>
+</ul>
+<p>Data doesn't come in one set format. Instead, there are different <em>representations of data</em> which can convey the same information. By interpreting these representations, we gain meaning from the data. <sup>[2]</sup></p>
+<h2 id="definition-of-data">Definition of data</h2>
+<div class="admonition question">
+<p class="admonition-title">How can we define data?</p>
+<p>Data has different definitions in different contexts and disciplines. Let's explore some definitions below.</p>
+</div>
+<div class="admonition quote">
+<p class="admonition-title">Wikipedia offers a broad understanding of data as ...</p>
+<p><em>"...a collection of discrete or continuous <strong>values</strong> that convey <strong>information</strong> describing the <strong>quantity, quality, fact, statistics</strong>, or other basic <strong>units of meaning</strong>, or sequences of <strong>symbols</strong> that may be further interpreted formally"</em> <sup>[3]</sup></p>
+</div>
+<div class="admonition quote">
+<p class="admonition-title">Taking a more business context, IBM defines data as ...</p>
+<p><em>'...a <strong>collection of facts, numbers, words, observations or other useful information</strong>. Through data processing and data analysis, organizations <strong>transform raw data points into valuable insights</strong> that improve decision-making and drive better business outcomes.'</em> <sup>[4]</sup></p>
+</div>
+<div class="admonition quote">
+<p class="admonition-title">CODATA conceives <a href="https://terms.codata.org/rdmt/data">data</a> as...</p>
+<p><em>'<strong>Facts, measurements, recordings, records, or observations about the world</strong>, collected by researchers, that are <strong>yet to be processed/interpreted/analysed</strong>. Data may be in any format or medium taking the form of writings, notes, numbers, symbols, text, images, films, video, sound recordings, pictorial reproductions, drawings, designs or other graphical representations, procedural manuals, forms, diagrams, work flow charts, equipment descriptions, data files, data processing algorithms, or statistical records.'</em> <sup>[5]</sup></p>
+</div>
+<p>While each definition has a slightly different focus, a common theme is that data comes in multiple representations, and it can be interpreted in order to provide information about the topic or object the data is describing.</p>
+<h2 id="research-data">Research data</h2>
+<p>Data used for research is called <strong>research data</strong>. As it is used in a specific context and for specific aims, research data has a narrower definition.</p>
+<div class="admonition quote">
+<p class="admonition-title">CODATA defines <a href="https://terms.codata.org/rdmt/research-data">research data</a> as...</p>
+<p><em>'Data that are <strong>used as primary sources to support technical or scientific enquiry, research, scholarship, or artistic activity</strong>, and that are used as evidence in the research process and/or are commonly accepted in the research community as necessary to <strong>validate research findings and results</strong>. All other digital and non-digital content have the potential of becoming research data. Research data may be experimental data, observational data, operational data, third-party data, public sector data, monitoring data, processed data, or repurposed data. Therefore, while data in research still conveys information (as the previous definition noted), it is <strong>in relation to a specific enquiry or activity</strong>.'</em> <sup>[6]</sup></p>
+</div>
+<p>While research data can come in lots of different representations, all research data has the same underlying purpose of being <em>used as evidence in a research process</em>.</p>
+<p>Research data is <strong>collected, observed or measured</strong> by an individual or an organisation, with the intention of finding out more about a particular concept. For example, a meteorologist or the Met Office will collect data about the weather in different locations and different times.</p>
+<h3 id="collecting-research-data">Collecting research data</h3>
+<p>Let's explore research data further.</p>
+<p>Research data is the outcome of a process which could be conceived as ...</p>
+<pre class="mermaid"><code>flowchart LR
+  sitw(Something in the world) --&gt; Rec(Which is recorded)
+  Rec --&gt; Rep(Has a representation)</code></pre>
+<p>'Something in the world' is the <strong>concept</strong> we are researching. To record it, we <strong>measure</strong> the concept and this measurement produces our <strong>research data</strong>.</p>
+<pre class="mermaid"><code>flowchart LR
+  sitw(Something in the world) --&gt; Rec(Which is recorded)
+  Rec --&gt; Rep(Has a representation)</code></pre>
+<pre class="mermaid"><code>flowchart LR
+  C(Concept) --&gt; Me(Measure)
+  Me --&gt; D(Data)</code></pre>
+<p>This process reflects how we <em>collect</em> research data. First, we generate a hypothesis on a particular <strong>concept</strong> (something in the world), then we <strong>measure</strong> the concept to test the hypothesis (which is recorded), and finally we produce <strong>data</strong> from our measurements (has a representation). The concept you study influences the measurement you choose, and the measurement determines the data you collect.</p>
+<div class="admonition abstract">
+<p><img alt="🔍" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f50d.svg" title=":mag:" /> <strong>Practice activity</strong></p>
+<p>If you're a researcher who wants to record the age of every participant in a study, what is the concept &rarr; measure &rarr; data?</p>
+<details class="question">
+<summary>What is <strong>the concept</strong> we want to capture?</summary>
+<p>Age of person.</p>
+</details>
+<details class="question">
+<summary>How do we <strong>measure</strong> age?</summary>
+<p>The way we conduct this measurement will be our data collection method. We may measure age by asking research participants the question 'What is your age?' in a questionnaire. A questionnaire would be our measurement tool which can be referred to as our data collection method.</p>
+</details>
+<details class="question">
+<summary>How would we represent that <strong>data</strong>?</summary>
+<p>We could use years, months, days, minutes or seconds to record data about age. If we used one of these units of measurement, we would create <em>numeric</em> data. If we use years as a unit of measurement, the valid range of numbers that would be acceptable would start from 0 (as your age cannot be negative) to roughly 115, based on the average lifespan of a person. The numeric data collected in our research will make up our dataset.</p>
+</details>
+<details class="success">
+<summary>A person's age as research data: concept &rarr; measure &rarr; data</summary>
+<pre class="mermaid"><code>flowchart LR
+  aop(Age of person &lt;br&gt; &lt;i&gt;Concept&lt;/i&gt;) --&gt; Ye(Years &lt;br&gt; &lt;i&gt;Measure&lt;/i&gt;)
+  Ye --&gt; yd(0...115 &lt;br&gt; &lt;i&gt;Data&lt;/i&gt;)</code></pre>
+</details>
+</div>
+<p>Thinking back to the weather app, identify the concept &rarr; measure &rarr; data for the data collected on the app.</p>
+<pre class="mermaid"><code>flowchart LR
+  C(Concept) --&gt; Me(Measure)
+  Me --&gt; D(Data)</code></pre>
+<pre class="mermaid"><code>flowchart LR
+  B1(&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;) --&gt; B2(&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)
+  B2 --&gt; B3(&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)</code></pre>
+<details class="success">
+<summary>Temperature</summary>
+<p>You may have identified the concept &rarr; measure &rarr; data for the temperature in London.</p>
+<pre class="mermaid"><code>flowchart LR
+tol(Temperature of London) --&gt; de(Thermometer)
+de --&gt; td("-20...45 degrees")</code></pre>
+</details>
+<details class="success">
+<summary>Wind gusts</summary>
+<p>You may have identified the concept &rarr; measure &rarr; data for wind gusts in London.</p>
+<pre class="mermaid"><code>flowchart LR
+  wgl(Wind gusts in London) --&gt; mph(Anemometer)
+  mph --&gt; mphd("0...100 miles per hour")</code></pre>
+</details>
+<div class="admonition abstract">
+<p><img alt="🔍" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/1f50d.svg" title=":mag:" /> <strong>Practice activity</strong></p>
+<p>Let's try another example in a research context.</p>
+<p>You are doing research into young people's relationship with social media. As part of this research, you need to find out how long each participant spends on a social media platform per day. What is concept &rarr; measure &rarr; data for this research?</p>
+<pre class="mermaid"><code>flowchart LR
+  B1(&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;) --&gt; B2(&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)
+  B2 --&gt; B3(&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)</code></pre>
+<details class="success">
+<summary>Concept &rarr; measure &rarr; data flow</summary>
+<p>One answer could be...</p>
+<pre class="mermaid"><code>flowchart LR
+  tsosm(Time Spent on Social Media) --&gt; min(Survey question)
+  min --&gt; d(0...24 hours)</code></pre>
+</details>
+</div>
+<p><strong>Research data in your work</strong></p>
+<p><img alt="➡" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/27a1.svg" title=":arrow_right:" /> If you're currently doing research, try to identify the concept &rarr; measure &rarr; data for your work.</p>
+<pre class="mermaid"><code>flowchart LR
+  B1(&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;) --&gt; B2(&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)
+  B2 --&gt; B3(&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)</code></pre>
+<hr />
+<h2 id="test-your-knowledge">Test your knowledge</h2>
+<div class="admonition question">
+<ol>
+<li>
+<p><strong>Complete the missing step: Concept → ??? → data</strong></p>
+<details class="success">
+<summary>Reveal answer</summary>
+<p><strong>Measure</strong></p>
+<p>Concept → measure → data</p>
+</details>
+</li>
+<li>
+<p><strong>True or false: different data using different units of measurement can convey the same information</strong></p>
+<details class="success">
+<summary>Reveal answer</summary>
+<p><strong>TRUE</strong></p>
+<p>The same concept can be measured in different units.
+For example, temperature can be expressed in degrees Celsius or Fahrenheit, 
+and time spent on an activity can be measured in minutes or hours.</p>
+</details>
+</li>
+<li>
+<p><strong>What role does data have in research?</strong></p>
+<details class="success">
+<summary>Reveal answer</summary>
+<p>Data is used as evidence in the research process and supports 
+and validates research findings.</p>
+</details>
+</li>
+</ol>
+</div>
+<hr />
+<h2 id="resources">Resources</h2>
+<p>You can find more 'Research Data' resources on the <a href="../../resources/#research-data">resources page</a>.</p>
+<hr />
+<h2 id="references">References</h2>
+<ul>
+<li><sup>[1]</sup> Met Office (2026) <em>Met Office Weather App</em> [Mobile app]. Available at: App Store or Google Play Store https://www.metoffice.gov.uk/</li>
+<li><sup>[2]</sup> <a href="www.data.cam.ac.uk/about/what">University of Cambridge (2025) What is research data?</a></li>
+<li><sup>[3]</sup> <a href="www.en.wikipedia.org/wiki/Data">Wikipedia (2025) Data</a></li>
+<li><sup>[4]</sup> <a href="https://www.ibm.com/think/topics/data">IBM (2025) What is Data?</a></li>
+<li><sup>[5]</sup> <a href="https://terms.codata.org/rdmt/data">CODATA (2025) RDM Terminology: Data</a></li>
+<li><sup>[6]</sup> <a href="https://terms.codata.org/rdmt/research-data">CODATA (2025) RDM Terminology: Research data</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.prune", "content.tooltips"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
