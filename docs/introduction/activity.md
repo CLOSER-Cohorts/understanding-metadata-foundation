@@ -45,7 +45,7 @@ authors:
 
 Identify at least two important gaps or ambiguities and two useful aspects of the metadata.
 
-??? success "Example answer"
+??? success "Example answers"
 
     **Missing or unclear metadata:**
     
