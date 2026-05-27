@@ -26,7 +26,7 @@ authors:
 !!! question ""
 
     You are looking for data to support a research project on physical activity 
-    in young adults in Wales before and after the Covid-19 pandemic.
+    in young adults in Wales before and after the COVID-19 pandemic.
 
     Below is a metadata record for a fictional dataset.
 
@@ -39,7 +39,7 @@ authors:
     - **Topics:** Exercise, diet, demographics, hobbies  
     - **File format:** CSV  
     - **Documentation:** Codebook  
-    - **License:** Not specified  
+    - **Licence:** Not specified  
 
 ### Task 1: What metadata is useful and what metadata is missing or unclear?
 
@@ -60,7 +60,7 @@ Identify at least two important gaps or ambiguities and two useful aspects of th
 
     **Useful metadata:**
     
-    - Topics provide an indication of relevance  
+    - Topics indicate potential relevance  
     - Presence of a codebook (even if not accessible)  
     - File format (CSV)  
     - Time period
@@ -70,6 +70,18 @@ Identify at least two important gaps or ambiguities and two useful aspects of th
 ### Task 2: Is this dataset suitable for the study?
 
 Based on the metadata, would you use this dataset for your research?
+
+??? note "Tip"
+
+    To decide whether a dataset is suitable for your research, it is helpful to consider:
+
+    - Does it cover the right people? e.g. Population  
+    - Does it measure the right things? e.g. Variables, concepts, unit type
+    - Is it collected in the right way? e.g. Methodology  
+    - Is it from the right place and time? e.g. Coverage  
+    - Can I access and use it? e.g. Licensing, access
+
+    You can use these questions to guide your answer.
 
 ??? success "Example answer"
 
@@ -106,74 +118,79 @@ If you wanted to use this dataset, what steps would you take?
 
 ### Task 4: How could this metadata record be improved?
 
-What specific changes would make this metadata record easier to find, understand, 
-and decide whether it is suitable for your research?
+What specific changes would make this metadata record easier to find, and decide whether it is suitable for your research?
 
 ??? success "Example answer"
 
     **Key improvements (quick summary):**
-    
-    - Add population and methodology details  
-    - Clarify geographic coverage  
-    - Provide licensing and access information  
-    - Include a persistent identifier to the data (e.g. DOI)  
-    - Provide a link to the codebook  
 
-    **More detailed improvements:**
+    - Add clear information about the population and who the data represents  
+    - Describe what is measured and how the data were collected  
+    - Clarify when and where the data were collected  
+    - Provide access to documentation (e.g. codebook)  
+    - Include a stable link or DOI  
+    - Clearly state how the data can be used (licensing)  
 
-    The metadata could be improved by making it more complete and aligned with 
-    recognised standards and controlled vocabularies.
+    **Improvements to support suitability decisions:**
 
-    - **Apply a metadata standard (e.g. Dublin Core):**
-          - *Title* – Expand to include more relevant details (e.g. study name, population)  
-            → Improves findability and helps assess relevance  
+    The metadata should be improved so that a researcher can clearly decide whether the dataset is suitable for their research.
 
-          - *Creator* – Include the organisation or researchers responsible (add ORCID IDs)  
-            → Supports trust and assessment of data quality  
+    - **Population** – Specify who is included (e.g. age range, location)  
+      → Helps determine whether the data covers the right people  
 
-          - *Description* – Provide a clear summary including purpose, methodology, and population  
-            → Improves understanding and suitability decisions  
+    - **Variables and measures** – Provide a list of variables and what they represent  
+      → Helps assess whether the dataset measures the right things  
 
-          - *Publisher* – State the organisation hosting the data  
-            → Helps locate and assess reliability  
+    - **Data collection method** – Describe how the data were collected  
+      → Helps evaluate data quality and comparability  
 
-          - *Coverage* – Specify geographic detail (e.g. GB-WLS for Wales)  
-            → Improves relevance to the research question  
+    - **Time period and geographic coverage** – Provide more detail about when and where the data were collected  
+      → Helps assess whether the data is relevant to the research context  
 
-          - *Identifier* – Include a DOI or stable link  
-            → Ensures reliable access and citation  
+    - **Documentation** – Ensure the codebook is accessible and includes variable definitions  
+      → Supports correct interpretation  
 
-          - *Rights* – Clearly state licensing and reuse conditions  
-            → Enables decisions about access and reuse  
+    - **Access and licensing** – Clearly state how the data can be accessed and reused  
+      → Enables decisions about whether the data can be used  
 
-    - **Improve detailed documentation:**
-        - Ensure the codebook is accessible  
-        - Include variable-level metadata (names, labels, definitions)  
-        → Supports interpretation and analysis  
+    **Supporting standards and practices:**
 
-    - **Use controlled vocabularies:**
-        - Standard subject terms or discipline-specific terms (e.g. “exercise” vs “physical activity”)  
-        - Standard geographic codes (e.g. ISO 3166: GB-WLS)  
-        → Improves searchability, consistency, and interoperability  
-
-    **Overall:**
-
-    These improvements make the dataset:
-    
-    - **Easier to find** through clear titles, identifiers, and standardised terms  
-    - **Easier to understand** through detailed descriptions and documentation  
-    - **Easier to assess and reuse** through clear provenance, coverage, and licensing  
+    - Including **persistent identifiers** (e.g. DOIs) for reliable access  
+    - Using common metadata elements (e.g. title, description, coverage) found in standards such as Dublin Core  
+    - Using **controlled vocabularies** to improve consistency and searchability  
 
 ---
 
 ### Task 5: Reflection
 
-- Think about your own research or a dataset you have used. What metadata did you rely on most?  
+- What metadata did you rely on most when finding, understanding, or deciding whether to use the data?
 - What is one thing you will do differently when creating or using metadata after this activity?  
 
+??? success "Example answers"
+     There is no single correct answer. The goal is to recognise how different types of metadata support your ability to find, understand, and decide whether data is suitable.
+
+     You may have thought about how you...
+     
+    - needed metadata that helped filter or narrow down options, especially when searching across multiple datasets e.g. year, topics
+    - looked for metadata that helped to quickly judge relevance e.g. concepts, title
+    - relied on metadata that gave enough context to understand the data i.e. what it represented and how it was created e.g. data collection, methodology, variables 
+    - focused on metadata that reduced uncertainty and helped determine the data quality - anything that made me more confident about what the data actually contained e.g. provenance, creator
+    - relied on whatever was easiest to see first even if was not the most important for assessing suitability e.g. title, keywords
+    - focused on metadata that helped decide whether I could use the data (including whether within my time and budget) e.g. licence, format, access conditions
+
+    In the future you may try to... 
+    
+    - think more about what someone else would need to know to decide if the data is suitable
+    - look for any relevant controlled vocabularies
+    - aim to reduce ambiguity in my metadata by making things clearer rather than assuming knowledge
+    - check to see what might be missing
+    - be more intentional about what metadata to include, prioritising the information that matters most
+    - spend more time on metadata and recognise it as part of the research process, not an add-on
+    - refer to metadata standards
+    
 ---
 
 ### Summary
 
-Good quality metadata allows researchers to quickly assess whether a dataset is relevant, reliable, and usable. Incomplete or unclear metadata can make valuable data difficult to find, interpret, or reuse. Metadata is not just descriptive, it supports decision-making throughout 
-the research process.
+
+Good quality metadata is not just descriptive, it supports different stages of the research lifecycle, such as finding relevant datasets at the start of a project. When key metadata are missing or are unclear, it becomes difficult to judge whether data are relevant, reliable, or usable. In contrast, clear, well-structured and detailed metadata reduces uncertainty, supports informed decision making, and makes research processes easier and more efficient.
