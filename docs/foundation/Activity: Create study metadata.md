@@ -32,12 +32,14 @@ authors:
 
 In this task you will create clear, useful study-level metadata that supports discovery and reuse.
 
-You are preparing metadata for a study that will be added to your university repository. Others will rely on your metadata to understand what the study is about and whether it is relevant to their work.
+!!! question ""
+    You are preparing metadata for a study that will be added to your university repository. Others will rely on your metadata to understand what the study is about and whether it is relevant to their work.
 
-Use the information below to create study metadata:
+    Use the information below to create study metadata:
 
-Connection to greenspaces in capital cities across the UK' conducted by Joe Smith and Mary Jones collects data on residents of capital cities across the UK and their feelings toward greenspaces. Face-to-face interviews were conducted in September 2022 - June 2023 (London, Cardiff, Edinburgh, Belfast). The project consists of 4 datasets, one for each city. The interviews used Greenspace Connection Survey v2.0. Green Brick Org provided logistical support for the interviews. The dataset is published by Green City Data in 08/09/25. The dataset is stored in CSV and conducted in English. The data is open access with CC BY-NC rights. 
-Note this is a fictional case study example for practice purposes only.
+    Connection to greenspaces in capital cities across the UK' conducted by Joe Smith and Mary Jones collects data on residents of capital cities across the UK and their feelings toward greenspaces. Face-to-face interviews were conducted in September 2022 - June 2023 (London, Cardiff, Edinburgh, Belfast). The project consists of 4 datasets, one for each city. The interviews used Greenspace Connection Survey v2.0. Green Brick Org provided logistical support for the interviews. The dataset is published by Green City Data in 08/09/25. The dataset is stored in CSV and conducted in English. The data is open access with CC BY-NC rights. 
+    
+    Note this is a fictional case study example for practice purposes only.
 
 Your metadata should allow a researcher to:
 
@@ -147,6 +149,7 @@ Make one or two improvements.
     -	deciding whether to repeat information or not e.g. geographic coverage
 
     You may have identified some of the following information as missing:
+    
     -	Sample size (e.g. how many participants were interviewed)
     -	Language
     -	Sampling method (e.g. random, convenience, recruited how)
