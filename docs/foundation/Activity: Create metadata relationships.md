@@ -16,9 +16,9 @@ date: May 2026
 
     By the end of the unit, you will be able to ...
 
-- Identify key dataset, variable, question, and code-level metadata elements  
-- Create structured metadata using a tabular template  
-- Apply good metadata practices to support understanding and reuse of data 
+    - Identify key dataset, variable, question, and code-level metadata elements  
+    - Create structured metadata using a tabular template  
+    - Apply good metadata practices to support understanding and reuse of data 
 
 
 In Units X and X, we explored dataset and variable metadata elements and the benefits of creating structured metadata and in unit X we explored the relationships between metadata. In this activity, you will apply this knowledge to a real example dataset.
@@ -55,7 +55,7 @@ respondentID | rsex | yearsni | placeliv | ethncat | memmec | thisoct | oct2yrs 
 1219 | 2 | 16 | 2 | [closed data] | [closed data] | 1 | 1 | 2 | 2
 1220 | 1 | 16 | 2 | [closed data] | [closed data] | 1 | 1 | 2 | 2
 
-ARK. Young Life and Times Survey, 2011 [computer file]. ARK www.ark.ac.uk/ylt [distributor], May 2012
+ARK. Young Life and Times Survey, 2011 [computer file]. ARK www.ark.ac.uk/ylt [distributor], May 2012.[2]
 
 If you want to use an alternative teaching dataset, you can find more on the UK Data Service. Expand the box below to explore more.
 
@@ -80,7 +80,7 @@ You want to make sure you preserve your data, documenting it clearly for your ow
 
 
 
-##Task 1 Create the metadata
+##Task 1: Create the metadata
 Think about the minimum metadata you would create for this study and dataset. You do not need to document every possible element, but you should include enough detail to allow someone else to understand a couple of the variables. Document metadata at the following levels:
 
 - Study metadata
@@ -134,10 +134,10 @@ Edit your Excel to include the relationships between the metadata across the wor
 
     This structure ensures that metadata is:
     
-        - connected
-        - consistent  
-        - reusable  
-        - easier to interpret  
+    - connected
+    - consistent  
+    - reusable  
+    - easier to interpret  
 
 Task 3: Reflection 
 
@@ -148,6 +148,7 @@ Task 3: Reflection
     There is no single correct answer. The goal is to.....
 
     You may have thought about ...
+    
     - how structuring metadata across different levels (study, dataset, variables, questions, codes) makes relationships clearer
     - how linking metadata using identifiers helps ensure consistency and avoids duplication  
     - how much context is needed for someone else to confidently understand and use the data  
@@ -171,3 +172,4 @@ Well-organised metadata allows researchers to understand how data were collected
 ## References
 
 - [1] Video explains the tools you can use in Excel to implement metadata best practice: https://www.uu.nl/en/research/research-data-management/guides/during-research/metadata-and-documentation
+- [2] Access Research Knowledge (ARK) Northern Ireland. (2012). Young Life and Times Survey, 2011. [data collection]. UK Data Service. SN: 7058, DOI: http://doi.org/10.5255/UKDA-SN-7058-1
