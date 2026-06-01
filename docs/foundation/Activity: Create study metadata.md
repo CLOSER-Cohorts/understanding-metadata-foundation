@@ -22,24 +22,23 @@ authors:
     - Apply good metadata practices to support discovery and reuse
 
 
-    ### How to approach metadata creation
+### How to approach metadata creation
 
 !!! question "How do you decide what metadata to create?"
 
-    What metadata you choose to create depends on the aims of your research and what you want to do with it. If your data is only for personal use, your metadata might only need to capture key details that will be useful for your current and future work. However, if you’re planning to share your research more widely and/or deposit it in a data repository or catalogue, you’ll likely need to create more metadata to help others understand and use your data. A data repository or catalogue, may also require you to follow a metadata schema to ensure your metadata is interoperable with the other studies on the site.
+    What metadata you choose to create depends on the aims of your research and what you want to do with it. If your data is only for personal use, your metadata might only need to capture key details that will be useful for your current and future work. However, if you’re planning to share your research more widely and/or deposit it in a data repository or catalogue, you’ll likely need to create more metadata to help others understand and use your data. A data repository or catalogue may also require you to follow a metadata schema to ensure your metadata is interoperable with the other studies on the site.
 
 **Creating metadata for a study**
 
 In this task you will create clear, useful study-level metadata that supports discovery and reuse.
 
-!!! question ""
-    You are preparing metadata for a study that will be added to your university repository. Others will rely on your metadata to understand what the study is about and whether it is relevant to their work.
+You are preparing metadata for a study that will be added to your university repository. Others will rely on your metadata to understand what the study is about and whether it is relevant to their work.
 
-    Use the information below to create study metadata:
+Use the information below to create study metadata:
 
-    Connection to greenspaces in capital cities across the UK' conducted by Joe Smith and Mary Jones collects data on residents of capital cities across the UK and their feelings toward greenspaces. Face-to-face interviews were conducted in September 2022 - June 2023 (London, Cardiff, Edinburgh, Belfast). The project consists of 4 datasets, one for each city. The interviews used Greenspace Connection Survey v2.0. Green Brick Org provided logistical support for the interviews. The dataset is published by Green City Data in 08/09/25. The dataset is stored in CSV and conducted in English. The data is open access with CC BY-NC rights. 
+Connection to greenspaces in capital cities across the UK' conducted by Joe Smith and Mary Jones collects data on residents of capital cities across the UK and their feelings toward greenspaces. Face-to-face interviews were conducted in September 2022 - June 2023 (London, Cardiff, Edinburgh, Belfast). The project consists of 4 datasets, one for each city. The interviews used Greenspace Connection Survey v2.0. Green Brick Org provided logistical support for the interviews. The dataset is published by Green City Data in 08/09/25. The dataset is stored in CSV and conducted in English. The data is open access with CC BY-NC rights. 
     
-    Note this is a fictional case study example for practice purposes only.
+Note this is a fictional case study example for practice purposes only.
 
 Your metadata should allow a researcher to:
 
@@ -93,7 +92,7 @@ State where the data were collected
 
 State how the data can be accessed and under what conditions
 
-##Task 2 Review your metadata
+##Task 2: Review your metadata
 
 - Is anything unclear, vague, or open to interpretation?
 - Is the title specific and informative?
@@ -132,7 +131,7 @@ Make one or two improvements.
     
     Open access under a Creative Commons Attribution-NonCommercial (CC BY-NC) licence.
 
-##Task 3 Reflection
+##Task 3: Reflection
 
 - What information did you find difficult to describe, and why?
 - What important information is still missing that would improve this metadata further?
