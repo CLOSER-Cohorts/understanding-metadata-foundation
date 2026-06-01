@@ -77,10 +77,13 @@ You want to make sure you preserve your data, documenting it clearly for your ow
 
 
 ##Task 1 Create the metadata
+Think about what minimum metadata you would create for this study and dataset. Document the study, quustion and responses, dataset and variable metadata. You do not need to document everything. 
 
-Download the template and use each sheet to enter your metadata.
-Use the template structure to organise your answers. If you are not using Excel, you can still complete the task using the same structure.
-The template is structured across multiple sheets to reflect how metadata elements are connected:
+You can download and use this template to enter your metadata. If you are not using Excel, you can still complete the task using your preferred tool.
+
+[YLT Metadata template](</YLT_metadata_template.xlsx>)
+
+The template is structured across multiple sheets:
 
 - Study metadata
 - Question metadata
@@ -92,13 +95,15 @@ The template is structured across multiple sheets to reflect how metadata elemen
 Each tab contains a metadata template to describe different areas of the research project. Each metadata element relates to information you have already encountered in this course. If you add new metadata elements to the template, it is important to define them clearly and specify what information should be recorded. This helps ensure that your metadata is consistent and understandable to others.
 
 ??? success "Example answer"
+
     Download this completed Excel template to compare your answers. 
     
+    [YLT Metadata template](</YLT_metadata_example.xlsx>)
 ---
 
 ##Task 2: Map the relationships
 
-Describe (or draw) how the following are connected:
+Describe (or draw) how the following metadata are connected:
 
 - Study 
 - Question
@@ -113,6 +118,10 @@ Edit your Excel to include the relationships between the metadata accross the wo
 ??? success "Example answer"
     Download this completed Excel template to compare your answers. Focus on how the different levels (study, dataset, variable, question, codes) are connected.
 
+   
+    [YLT Metadata template](</YLT_metadata_example_relationships.xlsx>)
+    
+
     What to notice in this example
 
     - Each level is clearly linked using IDs (Study_ID, Dataset_ID, Question_ID)
@@ -122,6 +131,7 @@ Edit your Excel to include the relationships between the metadata accross the wo
 
 
     This structure ensures that metadata is:
+    
         - connected
         - consistent  
         - reusable  
