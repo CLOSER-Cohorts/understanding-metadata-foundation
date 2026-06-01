@@ -43,10 +43,10 @@ nav:
     - 4.1 Considerations for what Metadata to Create: "foundation/4.1 Considerations for what metadata to create.md"  
     - 4.2 How to Create Metadata: "foundation/4.2 How to create metadata.md"  
     - 5.1 Activity - Create Study Metadata: "foundation/Activity: Create study metadata.md"  
-    - 5.2 Activity - Exploring metadata tools : "foundation/4.3 Create study metadata activity.md"  
+    #- 5.2 Activity - Exploring metadata tools : "foundation/4.3 Create study metadata activity.md"  
     # 4.4 Activity - Create Dataset Metadata : "foundation/4.4 Create dataset metadata activity.md"  
     # 4.5 Activity - Create Variable Metadata : "foundation/4.5 Create variable metadata activity.md"  
-    - 5.3 Activity - Create Dataset, Variable & Question Metadata : "foundation/4.6 Create dataset, variable and question metadata activity.md"  
+    - 5.2 Activity - Create Metadata Relationships : "foundation/Activity: Create metadata relationships.md"  
   - Resources: "resources.md"
 markdown_extensions:
   - abbr
