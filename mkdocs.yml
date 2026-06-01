@@ -46,7 +46,7 @@ nav:
     #- 5.2 Activity - Exploring metadata tools : "foundation/4.3 Create study metadata activity.md"  
     # 4.4 Activity - Create Dataset Metadata : "foundation/4.4 Create dataset metadata activity.md"  
     # 4.5 Activity - Create Variable Metadata : "foundation/4.5 Create variable metadata activity.md"  
-    - 5.2 Activity - Create Metadata Relationships : "foundation/Activity: Create metadata relationships.md"  
+    - 5.2 Activity - Create Metadata Relationships : "foundation/Activity Create metadata relationships.md"  
   - Resources: "resources.md"
 markdown_extensions:
   - abbr
