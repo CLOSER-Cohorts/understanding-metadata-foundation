@@ -14,7 +14,11 @@ date: May 2026
 
     **Intended Learning Outcomes**
 
-    By the end of the unit, you will ...
+    By the end of the unit, you will be able to ...
+
+- Identify key dataset, variable, question, and code-level metadata elements  
+- Create structured metadata using a tabular template  
+- Apply good metadata practices to support understanding and reuse of data 
 
 
 In Units X and X, we explored dataset and variable metadata elements and the benefits of creating structured metadata and in unit X we explored the relationships between metadata. In this activity, you will apply this knowledge to a real example dataset.
@@ -22,7 +26,7 @@ In Units X and X, we explored dataset and variable metadata elements and the ben
 We will use Excel to document metadata in this exercise. Excel is widely used, accessible, and familiar to many researchers. It allows you to structure metadata in a clear tabular format, apply basic validation rules, and organise information consistently without requiring specialist software. While other metadata tools exist which produce machine readable output, we will use Excel as a flexible and practical starting point for creating and managing metadata.
 
 !!! important "Excel"
-    Excel has features that can help ensure your metadata is clean, structured and standardised. For example, you can lock cells so that metadata element titles can't be changed or you can control what data can be input into certain metadata fields using data validation tools. This helps us to implement contolled vocabularies in our metadata creation (to recap controlled vocabularies, go to unit 2.5 in the Introduction course) and reduces risk of human errors[1].
+    Excel has features that can help ensure your metadata is clean, structured and standardised. For example, you can lock cells so that metadata element titles can't be changed or you can control what data can be input into certain metadata fields using data validation tools. This helps us to implement controlled vocabularies in our metadata creation (to recap controlled vocabularies, go to unit 2.5 in the Introduction course) and reduces risk of human errors[1].
 
     You can also download tools compatible with Excel. For example [Collectica for Excel](https://www.colectica.com/software/colecticaforExcel/) is an add-on for Excel which includes pre-defined metadata elements where you can input your metadata directly into the dataset file (rather than having a separate Excel file for your metadata).
 
@@ -77,19 +81,17 @@ You want to make sure you preserve your data, documenting it clearly for your ow
 
 
 ##Task 1 Create the metadata
-Think about what minimum metadata you would create for this study and dataset. Document the study, quustion and responses, dataset and variable metadata. You do not need to document everything. 
-
-You can download and use this template to enter your metadata. If you are not using Excel, you can still complete the task using your preferred tool.
-
-[YLT Metadata template](</YLT_metadata_template.xlsx>)
-
-The template is structured across multiple sheets:
+Think about the minimum metadata you would create for this study and dataset. You do not need to document every possible element, but you should include enough detail to allow someone else to understand a couple of the variables. Document metadata at the following levels:
 
 - Study metadata
 - Question metadata
 - Codes and categories metadata 
 - Dataset metadata 
 - Variable metadata
+
+You can download and use this Excel template to organise your metadata. If you prefer you can use another tool as long as you create the metadata. Note the example answer will be in the template.  
+
+[YLT Metadata template](<./YLT_metadata_template.xlsx>)
 
 
 Each tab contains a metadata template to describe different areas of the research project. Each metadata element relates to information you have already encountered in this course. If you add new metadata elements to the template, it is important to define them clearly and specify what information should be recorded. This helps ensure that your metadata is consistent and understandable to others.
@@ -98,12 +100,12 @@ Each tab contains a metadata template to describe different areas of the researc
 
     Download this completed Excel template to compare your answers. 
     
-    [YLT Metadata template](</YLT_metadata_example.xlsx>)
+    [YLT Metadata template](<./YLT_metadata_example.xlsx>)
 ---
 
 ##Task 2: Map the relationships
 
-Describe (or draw) how the following metadata are connected:
+Describe (or draw) how the following metadata elements are connected:
 
 - Study 
 - Question
@@ -111,15 +113,15 @@ Describe (or draw) how the following metadata are connected:
 - Dataset  
 - Variable 
 
-Think about how these relationships would appear in a table for example questions may include a column linking to Variable_ID.
+Your aim is to show how a researcher could trace meaning across levels from a data value to its definition and context, in an efficiently organsised way. Think about how these relationships would appear in a table for example questions may include a column linking to Variable_ID.
 
-Edit your Excel to include the relationships between the metadata accross the worksheet tabs. 
+Edit your Excel to include the relationships between the metadata across the worksheet tabs. If you prefer you can draw a simple diagram using arrows or describe the relationships using bullet points. Note the example answer will be in the template.  
 
 ??? success "Example answer"
     Download this completed Excel template to compare your answers. Focus on how the different levels (study, dataset, variable, question, codes) are connected.
 
    
-    [YLT Metadata template](</YLT_metadata_example_relationships.xlsx>)
+    [YLT Metadata template](<./YLT_metadata_example_relationships.xlsx>)
     
 
     What to notice in this example
@@ -136,6 +138,34 @@ Edit your Excel to include the relationships between the metadata accross the wo
         - consistent  
         - reusable  
         - easier to interpret  
+
+Task 3: Reflection 
+
+- Did using a structured template change the way you thought about metadata?
+- What is one thing you will do differently when creating or using metadata after this activity?
+
+??? success "Example answers"
+    There is no single correct answer. The goal is to.....
+
+    You may have thought about ...
+    - how structuring metadata across different levels (study, dataset, variables, questions, codes) makes relationships clearer
+    - how linking metadata using identifiers helps ensure consistency and avoids duplication  
+    - how much context is needed for someone else to confidently understand and use the data  
+    - how metadata is not just descriptive, but also supports interpretation and reuse  
+    
+    In the future you may try to...
+
+    - think more about what someone else would need to know to decide if the data is suitable
+    - aim to reduce ambiguity in my metadata by making things clearer rather than assuming knowledge
+    - check what information might be missing and how that affects usability
+    - be more intentional about what metadata to include, prioritising the information that matters most
+    - spend more time on metadata and recognise it as part of the research process, not an add-on
+    - refer to metadata standards, templates or schemas to ensure consistency 
+
+
+##Summary
+
+Well-organised metadata allows researchers to understand how data were collected, what variables represent, and how values should be interpreted. By focusing on structure, consistency, and relationships, you can create metadata that supports discovery, correct interpretation, and confident reuse of data.
 
 
 ## References
