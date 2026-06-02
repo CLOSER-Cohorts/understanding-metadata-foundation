@@ -100,7 +100,7 @@ Each tab contains a metadata template to describe different areas of the researc
 
     Download this completed Excel template to compare your answers. 
     
-    [YLT Metadata template](<./YLT_metadata_example.xlsx>)
+    [YLT Metadata template example](<./YLT_metadata_example.xlsx>)
 ---
 
 ##Task 2: Map the relationships
@@ -121,7 +121,7 @@ Edit your Excel to include the relationships between the metadata across the wor
     Download this completed Excel template to compare your answers. Focus on how the different levels (study, dataset, variable, question, codes) are connected.
 
    
-    [YLT Metadata template](<./YLT_metadata_example_relationships.xlsx>)
+    [YLT Metadata template example relationships](<./YLT_metadata_example_relationships.xlsx>)
     
 
     What to notice in this example
@@ -139,7 +139,7 @@ Edit your Excel to include the relationships between the metadata across the wor
     - reusable  
     - easier to interpret  
 
-Task 3: Reflection 
+## Task 3: Reflection 
 
 - Did using a structured template change the way you thought about metadata?
 - What is one thing you will do differently when creating or using metadata after this activity?
@@ -164,7 +164,7 @@ Task 3: Reflection
     - refer to metadata standards, templates or schemas to ensure consistency 
 
 
-##Summary
+## Summary
 
 Well-organised metadata allows researchers to understand how data were collected, what variables represent, and how values should be interpreted. By focusing on structure, consistency, and relationships, you can create metadata that supports discovery, correct interpretation, and confident reuse of data.
 
