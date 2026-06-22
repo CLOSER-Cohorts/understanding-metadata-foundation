@@ -1,0 +1,1133 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../2.5%20Variable%20metadata/">
+      
+      
+        <link rel="next" href="../2.7%20Study%20metadata/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Unit 2.6 Concept metadata - Understanding Metadata</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Source Sans Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-XM55ZQ1426"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-XM55ZQ1426",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-XM55ZQ1426",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#unit-26-concept-metadata" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Understanding Metadata" class="md-header__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Understanding Metadata
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Unit 2.6 Concept metadata
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Understanding Metadata" class="md-nav__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    Understanding Metadata
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../introduction/1.0%20Module%20Introduction/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Introductory course
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Foundation course
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Foundation course
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../0.%20Getting%20started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1%20Who%20should%20create%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.1 Who should Create Metadata?
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.2%20Why%20metadata%20matters/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.2 Why Metadata Matters
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1%20Unit%20type%2C%20Population%20and%20Universe/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.1 Unit Type, Population and Universe
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.2%20Data%20collection%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.2 Data Collection Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.3%20Question%20and%20measurement%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.3 Question and Measurement Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.4%20Codes%20and%20category%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.4 Codes and Category Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.5%20Variable%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.5 Variable Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    2.6 Concept Metadata
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    2.6 Concept Metadata
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-concept" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a concept?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concept-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concept metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concept-metadata-and-interoperability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concept metadata and interoperability
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Concept metadata and interoperability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-the-benefits-of-documenting-concept-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      What are the benefits of documenting concept metadata?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-your-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test your knowledge
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.7%20Study%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.7 Study Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.8%20Dataset%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.8 Dataset Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.%20Metadata%20relationships/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3.0 Metadata Relationships
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4.1%20Considerations%20for%20what%20metadata%20to%20create/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4.1 Considerations for what Metadata to Create
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4.2%20How%20to%20create%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4.2 How to Create Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Activity%3A%20Create%20study%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5.1 Activity - Create Study Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Activity%3A%20Create%20metadata%20relationships/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    5.2 Activity - Create Metadata Relationships
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-concept" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is a concept?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concept-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concept metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concept-metadata-and-interoperability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concept metadata and interoperability
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Concept metadata and interoperability">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-the-benefits-of-documenting-concept-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      What are the benefits of documenting concept metadata?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-your-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test your knowledge
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="unit-26-concept-metadata">Unit 2.6 Concept metadata</h1>
+<div class="admonition example">
+<p><strong>Unit study time</strong></p>
+<ul>
+<li>20 minutes</li>
+</ul>
+<p><strong>Intended Learning Outcome</strong></p>
+<p>By the end of the unit, you will be able to ...</p>
+<ul>
+<li>Define what a concept is in the context of research metadata.</li>
+<li>Explain how concept metadata supports semantic interoperability.</li>
+</ul>
+</div>
+<h2 id="what-is-a-concept">What is a concept?</h2>
+<p>Concepts are a fundamental component of collecting data. Think back to the Concept -&gt; Measure -&gt; Data flow in unit 1.1 of the Introduction to Metadata Course. Concepts form the semantic foundation of research data - they describe what is being measured. </p>
+<p>But what is a concept?</p>
+<p>Concepts are a unit of meaning. They are an idea with a formal definition and a name, and they consist of a unique combination of characteristics.</p>
+<p>For example...</p>
+<ul>
+<li>Person</li>
+<li>Apple</li>
+<li>Lion</li>
+<li>Gender</li>
+<li>Marital status</li>
+<li>Employment status</li>
+<li>Satisfaction with healthcare</li>
+<li>Academic discipline</li>
+</ul>
+<p>If concepts are a unit of meaning, how do we define a unit?</p>
+<p>For example ...</p>
+<p><strong>What is a lion?</strong> </p>
+<blockquote>
+<p>[!NOTE]
+Add reference as this looks like it was taken from DDI training slides</p>
+</blockquote>
+<p>We define concepts through their characteristics. It's through these characteristics that we can differentiate between different concepts.</p>
+<p>For example...</p>
+<table>
+<thead>
+<tr>
+<th>Tiger</th>
+<th>Lion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Large feline</td>
+<td>Large feline</td>
+</tr>
+<tr>
+<td>Coarse fur</td>
+<td>Coarse fur</td>
+</tr>
+<tr>
+<td>Orange and black colored</td>
+<td>Tawny colored</td>
+</tr>
+<tr>
+<td>Lives in groups called streaks</td>
+<td>Lives in groups called prides</td>
+</tr>
+<tr>
+<td>Lives in East and South Asia</td>
+<td>Lives in Africa or North West India</td>
+</tr>
+<tr>
+<td>Stripes</td>
+<td>No stripes</td>
+</tr>
+</tbody>
+</table>
+<p>Concepts can be broad, e.g. big cats, or they can be narrow, e.g. Lion. In this way, concepts related to other concepts are considered sub-concepts of a broader concept.</p>
+<p>For example, the concepts ...</p>
+<ul>
+<li>Lion</li>
+<li>Tiger</li>
+<li>Panther</li>
+<li>Jaguar</li>
+</ul>
+<p>Can be considered sub-concepts of big cats when grouped together.</p>
+<h2 id="concept-metadata">Concept metadata</h2>
+<p>Where would you include concept information in your metadata? </p>
+<p>As all research aims to measure a concept. You can create concept metadata at a broad level (e.g. in your project or dataset metadata) and/or at a granular level (e.g. in your variable, question and category metadata). </p>
+<p><strong>Variable, question and category metadata</strong>
+- A question, variable, or group of variables are designed to measure and describe a particular concept. For example, the question 'What is your marital status?' is designed to capture the concept 'marital status' of a person. This means you can add concept metadata to question and variable metadata. In your codelist metadata, you can list the concept for each category. </p>
+<p></p>
+
+<p><strong>Dataset and project metadata</strong>
+- As concepts can also be broad, at a higher level, you can capture concept data for a research project as a whole or for each dataset. This will provide the main topic that the research or dataset relates to.</p>
+<h2 id="concept-metadata-and-interoperability">Concept metadata and interoperability</h2>
+<p>Let's unpack how concept metadata makes different metadata more interoperable.</p>
+<p><strong>Codelists</strong><br></p>
+<p>Across different datasets, you might have different codelists to capture information about the same concept.</p>
+<table>
+<thead>
+<tr>
+<th>Dataset 1</th>
+<th>Dataset 2</th>
+<th>Dataset 3</th>
+<th>Dataset 4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td>Single</td>
+<td>1</td>
+<td>Never married</td>
+</tr>
+<tr>
+<td>M</td>
+<td>Married</td>
+<td>2</td>
+<td>Married</td>
+</tr>
+<tr>
+<td>D</td>
+<td>Divorced</td>
+<td>3</td>
+<td>Divorced</td>
+</tr>
+<tr>
+<td>W</td>
+<td>Widowed</td>
+<td>4</td>
+<td>Widowed</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>5</td>
+<td>Separated</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Engaged</td>
+</tr>
+</tbody>
+</table>
+<p>While each codelist has different categories (indicating different sub-concepts for marital status), the concept metadata tells us that they all relate to marital status. So even when data is collected in different ways, we can identify when data might be comparable or related to each other. It can also help us understand how a particular concept is defined, and whether that definition has evolved over time or changes in different contexts.</p>
+<p><strong>Variables</strong><br></p>
+<p>Variables across different datasets and research projects may measure the same concept. However, as they have different labels and names we wouldn't necessarily know that they are comparable unless we explored each dataset in-depth. This would be a time consuming process and we would most likely miss variables that could be comparable. </p>
+<p>For example, the variables...</p>
+<ul>
+<li>Dataset 1: MS_22</li>
+<li>Dataset 2: prtnr</li>
+<li>Dataset 3: signif_othr</li>
+<li>Dataset 4: relationshipstat</li>
+</ul>
+<p>all measure marital status. If the overall project or dataset was not focused on marital status (e.g. Dataset 1 could be collecting data about mental health in adults whereas Dataset 4 could be collecting data about access to adult education services), we wouldn't necessarily know that there are variables within those datasets that we could use and compare for further research.</p>
+<p>Therefore, by stating the concept of each variable, we provide a quick and easy way to understand what data is included in a project, even if it is not the main focus of the project.</p>
+<p><strong>Questions</strong><br></p>
+<ul>
+<li>Are you currently married?</li>
+<li>What is your marital status?</li>
+<li>Are you in a legal partnership?</li>
+<li>What is your legal partnership status?</li>
+</ul>
+<p>Even though the representation is different, the concept that the data measures, marital status, remains the same.</p>
+<p>Each of the categories that the codes represent in a codelist are also a concept in themselves, for example...</p>
+<ul>
+<li>Married</li>
+<li>Divorced</li>
+<li>Single</li>
+<li>Widowed</li>
+<li>Separated</li>
+<li>Engaged</li>
+</ul>
+<p>This means you can have broader concepts which have fewer characteristics defining them, and narrower concepts that have more characteristics.</p>
+<p>For example, martial status refers to a person's situation with regard to whether one is single, married, separated, divorced, or widowed.[^1]</p>
+<p>Whereas, the concept 'married' refers specifically to people who are united in marriage and have signed a legal document confirming their union.</p>
+<p>[^1]: Oxford Dictionary </p>
+<p>The meaning for a concept can also change over time. For example, over the past 20 years, the definition of marital status has evolved to include situations such civil partnerships or separated but still married. Take a look at the ONS to see the categories they include as part of their <a href="https://www.ons.gov.uk/census/census2021dictionary/variablesbytopic/demographyvariablescensus2021/maritalandcivilpartnershipstatus/classifications">legal partnership code list</a> </p>
+<h3 id="what-are-the-benefits-of-documenting-concept-metadata">What are the benefits of documenting concept metadata?</h3>
+<p>Documenting concept metadata provides clear definitions of what a variable means, not just what it is called. It is fundamental for making research data interoperable, comparable, and reusable across projects, time periods, and contexts. While humans can often infer meaning from experience or context, machines cannot, and even humans frequently interpret terms differently across disciplines, cultures, and eras. Concept metadata bridges these gaps.</p>
+<div class="admonition important">
+<p class="admonition-title">Benefits of concept metadata</p>
+<ul>
+<li>Enables re-use and cross‑Study Comparison</li>
+</ul>
+<p>Even if datasets from different projects used different data collection methods or were conducted in a different time and/or place, there could still be comparable data across them. Well‑defined concept metadata makes it possible to recognise when two variables represent the same underlying idea. This enables space for new research and findings, beyond the parameters of the original research projects. As such, data goes further and supports further investigations.</p>
+<ul>
+<li>Reduces ambiguity and misinterpretation</li>
+</ul>
+<p>If concepts along with their definitions are documented, we can ensure that we understand what the measure is, and not misinterpret the data. Assumptions could be made as concepts can seem 'obvious', but as demonstrated above, interpretation can vary based on cultural context, social constructs and local conventions for example. </p>
+<ul>
+<li>Supports machine actionable metadata and interoperability</li>
+</ul>
+<p>Machines cannot infer meaning from context, they need explicit definitions and relationships. This is essential for automation and more efficient data management processes. This is also vital for semantic interoperability. </p>
+<ul>
+<li>Improves data quality and consistency within projects</li>
+</ul>
+<p>Capturing concept metadata can reduce internal inconsistencies and improve clarity, help researchers select appropriate measures, prevent duplication of similar variables. It also becomes easier to maintain conceptual coherence over time, especially if the meaning of a concept changes over time, but the name remains the same. </p>
+</div>
+<p>Concept metadata defines what data represents, enabling clearer interpretation, comparison, and reuse across studies.</p>
+<hr />
+<h2 id="test-your-knowledge">Test your knowledge</h2>
+<div class="admonition question">
+<p><strong>Which of the following is an example of a concept?</strong></p>
+<ol>
+<li>CSV file format  </li>
+<li>Equipment serial number</li>
+<li>Socioeconomic status  </li>
+<li>Number of rows in a dataset  </li>
+</ol>
+<details class="success">
+<summary>Reveal answer</summary>
+<p>Concepts are abstract ideas (e.g. socioeconomic status) that may be measured in different ways.</p>
+</details>
+<p><strong>Why might the same concept be measured differently across datasets?</strong></p>
+<ol>
+<li>To reduce repetition  </li>
+<li>Because datasets must be unique </li>
+<li>To ensure identical results  </li>
+<li>Because concepts can be operationalised in different ways  </li>
+</ol>
+<details class="success">
+<summary>Reveal answer</summary>
+<p>Concepts such as “income” or “wellbeing” can be defined and measured differently depending on context, purpose, or methodology.</p>
+</details>
+<p><strong>What is the relationship between concepts and variables?</strong></p>
+<ol>
+<li>Variables are abstract ideas, concepts are numeric values  </li>
+<li>Concepts are measured directly without variables  </li>
+<li>Variables are specific implementations used to measure concepts  </li>
+<li>They are unrelated  </li>
+</ol>
+<details class="success">
+<summary>Reveal answer</summary>
+<p>Concepts are abstract, while variables are the measurable representations used to capture them in data.</p>
+</details>
+<p><strong>How does concept metadata support interoperability across datasets?</strong></p>
+<ol>
+<li>It ensures that all datasets use the same variable names  </li>
+<li>It standardises the file format used to store metadata </li>
+<li>It guarantees that datasets are collected using the same methods  </li>
+<li>It allows users to identify when different variables relate to the same underlying concept  </li>
+</ol>
+<details class="success">
+<summary>Reveal answer</summary>
+<p>Concept metadata allows users to recognise when different variables, questions, or codelists are measuring the same underlying idea. This supports interoperability by making it possible to link and compare data across different datasets, even when they are structured or labelled differently.</p>
+</details>
+</div>
+<hr />
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.prune", "content.tooltips"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
