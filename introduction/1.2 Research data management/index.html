@@ -1,0 +1,1114 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../1.1%20Research%20data/">
+      
+      
+        <link rel="next" href="../1.3%20FAIR/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Unit 1.2 Research data management - Understanding Metadata</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Source Sans Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-XM55ZQ1426"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-XM55ZQ1426",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-XM55ZQ1426",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#12-research-data-management" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Understanding Metadata" class="md-header__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Understanding Metadata
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Unit 1.2 Research data management
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Understanding Metadata" class="md-nav__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    Understanding Metadata
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Introductory course
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Introductory course
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.0%20Module%20Introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1%20Research%20data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.1 Research Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    1.2 Research Data Management
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    1.2 Research Data Management
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-research-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using research data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#poor-research-data-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Poor research data management
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Poor research data management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-the-impact-of-poor-research-data-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is the impact of poor research data management?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-data-management-rdm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research data management (RDM)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Research data management (RDM)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#implementing-good-rdm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementing good RDM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rdm-case-studies" class="md-nav__link">
+    <span class="md-ellipsis">
+      RDM case studies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefits-of-rdm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits of RDM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assess-your-rdm-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assess your RDM approach
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-your-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test your knowledge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.3%20FAIR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1.3 FAIR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1%20Introduction%20to%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.1 Introduction to Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.2%20Metadata%20in%20the%20research%20lifecycle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.2 Metadata in the Research Data Lifecycle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.3%20Using%20metadata%20-%20discover%20data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.3 Using Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.4%20Controlled%20vocabularies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.4 Controlled Vocabularies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.5%20Metadata%20standards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2.5 Metadata Standards
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../activity/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    3.0 Metadata activity
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.7%20Introduction%20summary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4.0 Summary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../foundation/0.%20Getting%20started/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Foundation course
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-research-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using research data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#poor-research-data-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Poor research data management
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Poor research data management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-the-impact-of-poor-research-data-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is the impact of poor research data management?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#research-data-management-rdm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Research data management (RDM)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Research data management (RDM)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#implementing-good-rdm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementing good RDM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rdm-case-studies" class="md-nav__link">
+    <span class="md-ellipsis">
+      RDM case studies
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefits-of-rdm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits of RDM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assess-your-rdm-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assess your RDM approach
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-your-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test your knowledge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="12-research-data-management">1.2 Research data management</h1>
+<h2 id="unit-overview">Unit overview</h2>
+<div class="admonition example">
+<p><strong>Unit study time</strong></p>
+<ul>
+<li>20 minutes</li>
+</ul>
+<p><strong>Intended Learning Outcome</strong></p>
+<p>By the end of the unit, you will be able to ...</p>
+<ul>
+<li>Explain what research data management (RDM) is</li>
+<li>Identify the consequences of poor RDM</li>
+<li>Explain the benefits of good RDM practices</li>
+<li>Describe the purpose and key components of a data management plan (DMP)</li>
+</ul>
+</div>
+<h2 id="using-research-data">Using research data</h2>
+<p>To use data as evidence in research, we need to collect and analyse it. This may be primary data (data we collect ourselves) or secondary data (data collected by others). However, if we don't organise and manage our data, we may hinder our ability to do this.</p>
+<div class="admonition warning">
+<p class="admonition-title">If we have disorganised and unmanaged data, we may ...</p>
+<ul>
+<li>Not understand our data, as datasets are not labelled and abbreviations are not explained</li>
+<li>Lose data, as it's not securely saved</li>
+<li>Produce 'dirty' data that contains human errors and inconsistencies which invalidate our findings</li>
+</ul>
+<p>If our data is unorganised or 'dirty', we limit our ability to produce effective findings. </p>
+<p>Poorly managed research data doesn't just impact the person who originally created the data, it also affects other researchers after the project has finished. </p>
+</div>
+<p>In <a href="https://www.youtube.com/watch?v=N2zK3sAtr-4"><strong>this clip</strong></a>, one researcher would like to find out more about another researcher's project. However, it is not as straightforward as it seems.<sup>1</sup></p>
+<div class="admonition question">
+<p class="admonition-title">What are some examples of poor research data management explored in this video?</p>
+<p>When you watch the video, can you spot what problems arise? </p>
+<p><p align="center">
+<a href=https://www.youtube.com/watch?v=N2zK3sAtr-4>
+<img src="../img/youtube.png" alt="Snafu in Three Short Acts" target="_blank" width="180" height="234">
+</a>
+</p></p>
+<details class="info">
+<summary><strong>Examples of poor research data management</strong></summary>
+<ul>
+<li>Data is not properly cited or linked in publications</li>
+<li>Links to objects/resources are broken e.g. when you follow a link in a citation, the page no longer exists or cannot be reached</li>
+<li>Limited context to understand the data</li>
+<li>Limited information about the project, such as when it was conducted, where it was conducted, who collected the data, how it was collected and why</li>
+<li>Limited information about what the dataset contains, such as what type of data was collected, what abbreviations mean</li>
+<li>No contact details of a person / organisation who collected the data to ask further questions about the data</li>
+<li>Data is unusable or only available in proprietary software</li>
+<li>No information about the data sharing policy</li>
+<li>Unclear data access process that doesn't specify how long it takes or the cost</li>
+</ul>
+</details>
+</div>
+<h2 id="poor-research-data-management">Poor research data management</h2>
+<h3 id="what-is-the-impact-of-poor-research-data-management">What is the impact of poor research data management?</h3>
+<p>For published research data, poor data management impacts the discovery, understandability and (re)use of that data. </p>
+<div class="admonition question">
+<p class="admonition-title">Reflecting on the video and your own experience, what are the <em>consequences</em> if you had poor research data management?</p>
+<p>Expand the boxes below to explore some of the consequences of poor research data management. </p>
+<details class="warning">
+<summary>The reach and use of research data is limited</summary>
+<p>Other people are less likely to trust your data as it's harder to understand and may contain errors and inconsistencies. This means they're less likely to cite your work or reuse your data in secondary research or cross-study comparisons. This limits its impact and, in the long run, it could affect your chances of getting future funding or support.</p>
+</details>
+<details class="warning">
+<summary>Research data is less secure</summary>
+<p>If there is no clear data usage or sharing policies, your data could be misused. If data is not stored in a secure location, it could be lost or accessed by people without permission. This is especially risky if your data is sensitive and needs to be kept secure.</p>
+</details>
+<details class="warning">
+<summary>Time is wasted trying to understand data retrospectively</summary>
+<p>You will have to spend more time trying to find and organise poorly managed data into a meaningful structure so it can be understood and used. If that's not possible, you may need to repeat a study to correct errors caused by poor data management, doubling the time and resources needed to obtain the data. If your study is not documented and made discoverable, people might not know it exists and it could be unnecessarily duplicated by others.</p>
+</details>
+<details class="warning">
+<summary>Access to future research funding could be impacted</summary>
+<p>If data is poorly managed and/or inaccessible, institutions are less likely to fund future research.</p>
+</details>
+<p><em>Poor data management causes inefficiency and devalues the quality and usability of your research. Poorly managed data affects both the person who has created the data and others who are interested in using the data.</em></p>
+</div>
+<h2 id="research-data-management-rdm">Research data management (RDM)</h2>
+<p>In order to avoid the consequences caused by poor data management highlighted in the previous section, research data needs to be organised and managed. This concept is called research data management (RDM). </p>
+<div class="admonition quote">
+<p class="admonition-title">"CODATA defines <a href="https://terms.codata.org/rdmt/research-data-management">research data management</a> as...</p>
+<p><em>Storage, access and preservation of data created or collected in the course of research. Research data management practices cover the entire lifecycle of the data, from planning the investigation to conducting it, and from backing up data as it is created and used to long term preservation of data deliverables after the research investigation has concluded.<sup>[2]</sup></em></p>
+</div>
+<div class="admonition question">
+<p class="admonition-title">Who's responsible for implementing good research data management?</p>
+<p>Everyone involved in a research project is responsible for implementing good RDM. Larger projects may assign different roles and share responsibilities. People outside of the research project are also responsible for good RDM when they cite or re-use data.</p>
+</div>
+<h3 id="implementing-good-rdm">Implementing good RDM</h3>
+<p>Select the tabs below to explore how we can implement good research data management in our own research.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Data Management Plans</label><label for="__tabbed_1_2">FAIR Data principles</label><label for="__tabbed_1_3">Structured documentation</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a href="https://terms.codata.org/rdmt/data-management-plan">Data Management Plans (DMP)</a> are a document that outline how a project will manage their data. This includes assigning roles in RDM, and specifying where and how data will be stored and documented. DMPs should be created at the beginning of the project and it is recommended that all projects have a DMP. <sup>[3]</sup></p>
+<p><strong>What should a DMP include?</strong></p>
+<ul>
+<li>DMPs should address the whole research lifecycle, covering how data will be collected, processed, analysed, described, preserved, and shared during the course of a research project and beyond (we will explore the research lifecycle in <a href="../2.2%20Metadata%20in%20the%20research%20lifecycle/">unit 2.2</a>).</li>
+<li>DMPs should be a living document that is updated as processes are refined and created when the need arises.</li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p>To help guide research data management across all disciplines, the FAIR data principles were established as a hallmark of best practice in research. The principles help researchers avoid common problems that come from poor research data management and encourage data to be Findable, Accessible, Interoperable and Re-usable (FAIR). We'll unpack these principles in the next <a href="../1.3%20FAIR/">unit 1.3</a>.</p>
+</div>
+<div class="tabbed-block">
+<p>Creating structured documentation that describes your data, and your data collection processes can help you organise your research data effectively. For example, recording what different datasets contain and the security levels of the data. You can also share this documentation with other researchers so they can understand your data without having to access the data files (note, this documentation does not need to contain any sensitive information). Metadata is a type of structured documentation that allows you to do this. We'll cover what metadata is and how it is used in research in <a href="../2.1%20Introduction%20to%20metadata/">unit 2.1</a>.</p>
+</div>
+</div>
+</div>
+<h3 id="rdm-case-studies">RDM case studies</h3>
+<p>To explore real-life examples of data management, the University of Birmingham has put together four case studies from different departments (Birmingham University Imaging Centre (BUIC), College for Engineering and Physical Sciences, Department of English Literature, School of Sport, Exercise and Rehabilitation Sciences) exploring how they approached research data management in their project. You can <a href="https://intranet.birmingham.ac.uk/student/libraries/research/rdm/case-studies/case-studies.aspx">explore the case studies here.</a> <sup>[5]</sup> </p>
+<h3 id="benefits-of-rdm">Benefits of RDM</h3>
+<div class="admonition question">
+<p class="admonition-title">What do you think are the benefits of good research data management?</p>
+<p>How do you think good research management can help the research process and data quality? </p>
+<p>Expand the box below to explore the benefits of good research data management.</p>
+<details class="tip">
+<summary>Benefits of good research data management</summary>
+<p><strong>Efficiency</strong></p>
+<ul>
+<li>Saves time and resources by establishing robust documentation, storage and preservation processes</li>
+<li>Reduces the risk of losing data and ensures long-term preservation of data</li>
+<li>Reduces the potential for research duplication</li>
+<li>Improves internal communication and workflows within a project</li>
+</ul>
+<p><strong>Quality and trustworthiness of your data</strong></p>
+<ul>
+<li>Enables other researchers to use your research and encourages cross-study research</li>
+<li>Proof of transparent and valid research methods and data</li>
+<li>Improves the accuracy and security of your data</li>
+</ul>
+<p><strong>Encourages re-use and makes your data go further</strong></p>
+<ul>
+<li>Facilitates the re-use of data by yourself and others</li>
+<li>It is required to obtain funding and/or meet funding bodies' requirements</li>
+</ul>
+<p><sup>[6]</sup></p>
+</details>
+</div>
+<h3 id="assess-your-rdm-approach">Assess your RDM approach</h3>
+<div class="admonition question">
+<p class="admonition-title">How strong is your research data management?</p>
+<p>Checklists can help you make sure you've considered all areas of research data management in your research. These are available online, for example ...</p>
+<ul>
+<li>DCC provide a pdf, <a href="https://www.dcc.ac.uk/sites/default/files/documents/resource/DMP_Checklist_2013.pdf">'Research data management plan checklist'</a>, which has a list of questions to help you assess your RDM approach.</li>
+<li>Openaire gives a <a href="https://www.openaire.eu/rdm-service-development-checklist">checklist</a> for different stakeholders in the research process: the research group, institution, repository, research infrastructure, funder and national. On each page, it outlines what each group should consider to implement good RDM.</li>
+<li>Stanford Medicine provide a <a href="https://laneguides.stanford.edu/DataManagement/checklist">online data management checklist</a> that allows you to tick different RDM activities once you've completed them.</li>
+</ul>
+<p>If you're currently working on a project, try using one of the lists above to assess your research data management approach.</p>
+</div>
+<hr />
+<h2 id="test-your-knowledge">Test your knowledge</h2>
+<div class="admonition question">
+<ol>
+<li>
+<p><strong>When in the research process should you create a data management plan?</strong></p>
+<details class="success">
+<summary>Reveal answer</summary>
+<p>At the start of the project in the research design stage.</p>
+</details>
+</li>
+<li>
+<p><strong>What stage of the research lifecycle should a data management plan address?</strong></p>
+<details class="success">
+<summary>Reveal answer</summary>
+<p>A data management plan (DMP) should address all stages of the research lifecycle, including after the research has finished.</p>
+</details>
+</li>
+<li>
+<p><strong>Who should create a data management plan?</strong></p>
+<details class="success">
+<summary>Reveal answer</summary>
+<p>The lead researcher or research team, often with input from data managers or institutional support. If it is a large research team, you may delegate different areas of the DMP to be completed.</p>
+</details>
+</li>
+<li>
+<p><strong>Who is responsible for carrying out a data management plan?</strong></p>
+<details class="success">
+<summary>Reveal answer</summary>
+<p>Everyone in the research team is responsible for carrying out the DMP. You may also assign specific tasks to relevant members.</p>
+</details>
+</li>
+</ol>
+</div>
+<hr />
+<h2 id="resources">Resources</h2>
+<p>You can find more 'Research Data Management' resources on the <a href="../../resources/#research-data-management">resources page</a>.</p>
+<hr />
+<h2 id="references">References</h2>
+<ul>
+<li><sup>[1]</sup> NYU Health Sciences Library (2012) <a href="www.youtube.com/watch?v=N2zK3sAtr-4">Data Sharing and Management Snafu in 3 Short Acts</a></li>
+<li><sup>[2]</sup> CODATA (2025) RDM Terminology Bank: <em>[Research data management]</em>(https://terms.codata.org/rdmt/research-data-management))</li>
+<li><sup>[3]</sup> CODATA (2025) RDM Terminology Bank: <em>[Data management plan]</em>(https://terms.codata.org/rdmt/data-management-plan)</li>
+<li><sup>[4]</sup> MANTRA, University of Edinburgh (2025) <a href="https://mantra.ed.ac.uk/datamanagementplanning/">Data management planning: Data management plan</a></li>
+<li><sup>[5]</sup> University of Birmingham (2025) <a href="https://intranet.birmingham.ac.uk/student/libraries/research/rdm/case-studies/case-studies.aspx">'Case studies' [Online]</a></li>
+<li><sup>[6]</sup> CLOSER Discovery (2025) <a href="https://closer.ac.uk/training-hub/data-management/understanding-research-data-management/basics-of-research-data-management/">'Basics of research data management'</a></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.prune", "content.tooltips"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
